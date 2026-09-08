@@ -15,4 +15,9 @@
    |   C3 | 14          | B3      |          |      E6 |           7 | L3   |
    |   C2 | 16          | B2      |          |      B4 |           8 | L2   |
    |   C1 | 10          | B6      |          |      B5 |           9 | L1   |
-
+** Setup
+   #+begin_src bash
+     qmk clean
+     qmk compile --keyboard handwired/dactyl_manuform/5x7 --keymap default
+     qmk flash --keyboard handwired/dactyl_manuform/5x7 --keymap default
+   #+end_src
