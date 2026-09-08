@@ -1,0 +1,18 @@
+* My custom dactyl manuform
+** Pinout
+   | Wire | Arduino pin | AVR pin | __________ | AVR pin | Arduino pin | Wire |
+   |  <r> | <l>         | <l>     |          |     <r> |         <r> | <l>  |
+   |------+-------------+---------+----------+---------+-------------+------|
+   |      | Raw         | Raw     |          |      D3 |         Tx0 |      |
+   |      | Gnd         | Gnd     |          |      D2 |         Rx1 |      |
+   |      | Rst         | Rst     |          |     Gnd |         Gnd |      |
+   |      | Vcc         | Vcc     |          |     Gnd |         Gnd |      |
+   |      | A3          | F4      |          |      D1 |           2 |      |
+   |   C7 | A2          | F5      |          |      D0 |           3 | P3   |
+   |   C6 | A1          | F6      |          |      D4 |           4 | L6   |
+   |   C5 | A0          | F7      |          |      C6 |           5 | L5   |
+   |   C4 | 15          | B1      |          |      D7 |           6 | L4   |
+   |   C3 | 14          | B3      |          |      E6 |           7 | L3   |
+   |   C2 | 16          | B2      |          |      B4 |           8 | L2   |
+   |   C1 | 10          | B6      |          |      B5 |           9 | L1   |
+
