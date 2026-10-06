@@ -18,13 +18,15 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
-
 /* mouse config */
-#define MOUSEKEY_INTERVAL    20
-#define MOUSEKEY_DELAY       0
-#define MOUSEKEY_TIME_TO_MAX 60
-#define MOUSEKEY_MAX_SPEED   7
-#define MOUSEKEY_WHEEL_DELAY 0
+#define MOUSEKEY_DELAY 0 // Delay between pressing a movement key and cursor movement
+#define MOUSEKEY_INTERVAL 0 // Time between cursor movements
+#define MOUSEKEY_MAX_SPEED 3 // Maximum cursor speed at which acceleration stops
+#define MOUSEKEY_TIME_TO_MAX 50 // Time until maximum cursor speed is reached
+#define MOUSEKEY_WHEEL_DELAY 0 // Delay between pressing a wheel key and wheel movement
+#define MOUSEKEY_WHEEL_INTERVAL 50 // Time between wheel movements
+#define MOUSEKEY_WHEEL_MAX_SPEED 50 // Maximum number of scroll steps per scroll action
+#define MOUSEKEY_WHEEL_TIME_TO_MAX 255 // Time until maximum scroll speed is reached
 
-/* Enables This makes it easier for fast typists to use dual-function keys */
-#define PERMISSIVE_HOLD
+#define TAPPING_TERM 0
+#define RETRO_TAPPING
